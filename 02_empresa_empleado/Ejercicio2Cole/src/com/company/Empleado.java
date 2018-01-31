@@ -55,4 +55,14 @@ public class Empleado {
     public void setEmpresa(Empresa empresa) {
         this.empresa = empresa;
     }
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", fechaNacimiento='" + fechaNacimiento + '\'' +
+                ", fechaContrato='" + fechaContrato + '\'' +
+                '}';
+    }
 }
